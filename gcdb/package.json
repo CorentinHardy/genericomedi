@@ -1,0 +1,23 @@
+{
+  "name": "jcbe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "setup.js",
+  "dependencies": {
+    "fastify": "^1.9.0",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".."
+  },
+  "keywords": [
+    "db"
+  ],
+  "author": "NatNgs",
+  "license": "ISC"
+}
