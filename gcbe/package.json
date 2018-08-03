@@ -1,11 +1,10 @@
 {
-  "name": "gcdb",
+  "name": "gcbe",
   "version": "1.0.0",
   "description": "",
   "main": "stqrtup.js",
   "dependencies": {
-    "fastify": "^1.9.0",
-    "mongodb": "^3.1.1"
+    "fastify": "^1.9.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,7 +15,7 @@
     "url": ".."
   },
   "keywords": [
-    "db"
+    "be"
   ],
   "author": "NatNgs",
   "license": "ISC"
