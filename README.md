@@ -1,1 +1,1 @@
-# genericomedi
+# genericomedy

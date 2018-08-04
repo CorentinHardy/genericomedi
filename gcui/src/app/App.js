@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from '../assets/logo.svg';
 import './App.css';
+const axios = require('axios');
 
 class App extends Component {
+  constructor() {
+    super();
+    this.firstRequestTest();
+  }
+
+  firstRequestTest() {
+    axios({
+      method:'get',
+      url:''
+    }).then((response) => {
+      console.log('response/ ', response);
+    }).catch(error => {
+      console.log('error/ ', error);
+    });
+  }
+
   render() {
     return (
       <div className="App">
